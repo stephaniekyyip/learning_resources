@@ -8,6 +8,7 @@ Here's a list of the (free) web resources I've used to learn about web developme
 - [Udacity: Intro to Backend](https://classroom.udacity.com/courses/ud171)
 - [Flatiron School: Coding Bootcamp Prep](https://flatironschool.com/programs/online-bootcamp-prep-course/)
   - JavaScript, Ruby, Interview Prep
+- [SoloLearn (iOS app)](https://www.sololearn.com/)
 <!-- - [Coursera: Algorithms, Part I from Princeton University](https://www.coursera.org/learn/algorithms-part1/) -->
  
  ## Tutorials
