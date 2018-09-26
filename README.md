@@ -21,7 +21,7 @@ Here's a list of free web resources I've used to learn about web development, pr
  - [Let's Build That App: Node and Express REST API Tutorial](https://www.youtube.com/watch?v=F7NVpxxmmgM&list=PL0dzCUj1L5JE4w_OctDGyZOhML6OtJSqR) - [[My Code]](https://github.com/stephaniekyyip/learning_node/tree/master/node-rest-api)
  
  ## Articles and Blog Posts
- - [BaseCS Series by Vaidehi Joshi](https://github.com/vaidehijoshi/basecs-series/blob/master/README.md
+ - [BaseCS Series by Vaidehi Joshi](https://github.com/vaidehijoshi/basecs-series/blob/master/README.md)
  
 ---
 
