@@ -13,13 +13,17 @@ Here's a list of free web resources I've used to learn about web development, pr
 ## Lessons
 
 - [Codecademy](https://www.codecademy.com/) :star:
-  - Learn programming languages with hands-on exercises.
+  - Learn programming language basics with hands-on exercises
 - [Udacity: Intro to Backend](https://classroom.udacity.com/courses/ud171) :hourglass:
-- Udacity: Full Stack Foundations :exclamation:
+- [Udacity: Full Stack Foundations](https://www.udacity.com/course/full-stack-foundations--ud088):exclamation:
+  - Recommended Prerequisites:
+    - [Udacity: Intro to Computer Science](https://www.udacity.com/course/intro-to-computer-science--cs101) :hourglass:
+    - [Udacity: Programming Foundations with Python](https://www.udacity.com/course/programming-foundations-with-python--ud036) :exclamation:
+    - [Udacity: Intro to Relational Databases](https://www.udacity.com/course/intro-to-relational-databases--ud197) :exclamation:
 - [Flatiron School: Coding Bootcamp Prep](https://flatironschool.com/programs/online-bootcamp-prep-course/) :hourglass:
   - JavaScript, Ruby, Interview Prep
 - [SoloLearn](https://www.sololearn.com/) (Used the iOS app)
-  - Learn programming languages on your phone. <!-- [Coursera: Algorithms, Part I from Princeton University](https://www.coursera.org/learn/algorithms-part1/) --> 
+  - Learn programming language basics on your phone <!-- [Coursera: Algorithms, Part I from Princeton University](https://www.coursera.org/learn/algorithms-part1/) --> 
 - [Gordan Zhu: Practical JavaScript](https://watchandcode.com/) :exclamation:
 
 ## Full Curriculums
@@ -31,6 +35,7 @@ Here's a list of free web resources I've used to learn about web development, pr
 - [Django Girls](https://tutorial.djangogirls.org/en/) :exclamation:
   - Intro to web technologies using Python and Django
 - [FreeCodeCamp](https://learn.freecodecamp.org/)
+- [Crash Course: Computer Science](https://www.youtube.com/playlist?list=PLME-KWdxI8dcaHSzzRsNuOLXtM2Ep_C7a) :hourglass:
 
 ## Video Tutorials
 
@@ -48,11 +53,9 @@ Here's a list of free web resources I've used to learn about web development, pr
 
 ## Articles and Blog Posts
 
-- [BaseCS Series by Vaidehi Joshi](https://github.com/vaidehijoshi/basecs-series/blob/master/README.md) :hourglass:
+- [ Vaidehi Joshi: BaseCS Series](https://github.com/vaidehijoshi/basecs-series/blob/master/README.md) :star::hourglass:
 
-## Interview/ Resume/  Job Search Resources
-
-- 
+## Interview/ Resume/  Job Search Resources
 
 ---
 
