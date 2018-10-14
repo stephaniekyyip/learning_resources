@@ -1,4 +1,20 @@
-# Udacity: Intro to Backend
+# [Udacity: Intro to Backend](https://www.udacity.com/course/intro-to-backend--ud171)
+
+**Table of Contents**
+
+[Lesson 1: How the Web Works](#Lesson-1:-How-the-Web- Works)
+
+[Lesson 3: Forms and Inputs](#lesson-3:-forms-and-inputs)
+
+[Lesson 4: Templates](#lesson-4:-templates)
+
+[Lesson 6: Databases](#lesson-6:-databases)
+
+[Lesson 7: Blog](#lesson-7:-blog)
+
+[Lesson 8: User Accounts and Security](#lesson-8:-user-accounts-and-security)
+
+---
 
 ### Lesson 1: How the Web Works
 
@@ -8,7 +24,7 @@
 
   - Collection of HTML documents
 
-- Browsers made request via Internet to server using a protocol called HTTP
+- Browsers make requests via Internet to server using a protocol called HTTP
 
 - Servers respond with files that the browser displays
 
@@ -29,7 +45,8 @@
 - HTML attributes
 
   - `<tag attr=”value”>content</tag>`
-  - E.g. Anchor tag `<a href = “url”></a>, image tag <img src = “url” alt = “text”>`
+  - Anchor tag `<a href = “url”></a>` 
+  - Image tag `<img src = “url” alt = “text”>`
 
 - Void tag- no closing tag needed
 
@@ -42,7 +59,7 @@
 - URL: Uniform Resource Locator
 
   - http => protocol
-  - www.udacity.com => host
+  - `www.udacity.com` => host
   - / => path
 
 - Query Parameters
@@ -165,9 +182,11 @@
   - “  => `"`
   - \> => `>`
   - < => `<`
-    - & => `&`
+  -  & => `&`
 
 - Redirect after form submission, so that reloading the page doesn’t resubmit the form and so that you can separate forms and submission successful pages.
+
+---
 
 ### Lesson 4: Templates
 
@@ -181,6 +200,8 @@
   - Minimize HTML in code (separate the two)
   - Make code more readable and organized
   - Make more secure websites (escaping user input)
+
+---
 
 ### Lesson 6: Databases
 
@@ -236,9 +257,13 @@
 
 - HTML `<pre>`: Preformatted text (preserves whitespace)
 
+---
+
 ### Lesson 7: Blog
 
 - Replace `\n` with `<br>` in order to render the new lines in the text that the user submits
+
+---
 
 ### Lesson 8: User Accounts and Security
 
@@ -291,4 +316,27 @@
   x = hashlib.md5(“foo”)
   ```
 
-- 3
+- Hashing Cookies
+
+  - `set-cookie: visits = 5, [hashed value]`
+  - To check if a cookie has been tampered with, make sure that the rehashed value is equal to the hash that was sent. Otherwise, reset or discard cookie value.
+  - However, if the hashing algorithm is known, a hacker could use that algorithm to hash the new value of the cookie. To combat this, instead of just hashing the value, you would hash the value + secret. 
+  - HMAC: Hash-based Message Authetication Code
+    - Similar to `hashlib` for hashing, but also incorporates a secret to create the hash value. 
+
+      ```python
+      import hmac
+      hmac.new("secret", "message").hexdigest()
+      ```
+
+- Password hashing
+
+  - Passwords should not be stored as plain text in a database (in the case of the database being compromised), but should instead be stored as a hashed value.
+
+  - However, even hashed passwords are not completely safe.
+
+  - Rainbow table: Comprehensive hash table mappings of plain text to hashed values. Makes it easy to look up the mappings for a given hash algorithm.
+
+  - Salt: Similiar to secrets, but consists of random characters that are added to the plan text values before being hashed.
+
+  - Be careful about 3rd party libraries for password hashing.

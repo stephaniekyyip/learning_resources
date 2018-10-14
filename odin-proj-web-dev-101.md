@@ -42,8 +42,6 @@
   - Web: Some of these computers, i.e. web servers, can send messages to be read by web servers. 
   - The Internet is an infrastructure. The web is built on top of that infrastructure. 
 
-  
-
 [How the Internet Works in 5 Minutes](https://www.youtube.com/watch?v=7_LPdttKXPc&feature=youtu.be&t=46s)
 
 - Servers are computers directly connected to the Internet. Each has its own IP address.
@@ -60,6 +58,14 @@
 
 [MDN - What's the difference between webpage, website, web server, and search engine?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines#Summary)
 
-- 
+- Web Page: A document written in HTML that can be displayed in a web browser. Each web page is accessed through a unique address.
+
+- Website: A collection of web pages grouped together that shaw a unique domain name.
+
+- Web server: A computer that hosts a website or multiple websites on the Internet, meaning that all the web pages and files for that website is stored that computer. The server sends any web page from the website to a user's browser as requested.
+
+- Search Engine: A website that helps you find web pages from other websites (e.g. Google). 
+
+- Web Browser: Software that retrieves and displays web pages. 
 
 [MDN - How the Web Works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
