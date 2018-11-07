@@ -28,7 +28,7 @@ Here's a list of free web resources I've used to learn about web development, pr
 
 ## Full Curriculums
 
-- [The Odin Project](https://www.theodinproject.com/courses?ref=homenav) :exclamation:
+- [The Odin Project](https://www.theodinproject.com/courses?ref=homenav) :hourglass:
   - Ruby, Rails, JavaScript, HTML/ CSS
 - [Ada Developer Academy](https://github.com/Ada-Developers-Academy/textbook-curriculum) :exclamation:
   - Ruby, Rails, JavaScript, HTML/ CSS
@@ -36,6 +36,8 @@ Here's a list of free web resources I've used to learn about web development, pr
   - Intro to web technologies using Python and Django
 - [FreeCodeCamp](https://learn.freecodecamp.org/)
 - [Crash Course: Computer Science](https://www.youtube.com/playlist?list=PLME-KWdxI8dcaHSzzRsNuOLXtM2Ep_C7a) :hourglass:
+- [Rithm School](https://www.rithmschool.com/courses) :exclamation:
+  - Open-source curriculum with JavaScript and Python
 
 ## Video Tutorials
 
