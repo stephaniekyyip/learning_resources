@@ -57,6 +57,16 @@ Here's a list of free web resources I've used to learn about web development, pr
 
 - [ Vaidehi Joshi: BaseCS Series](https://github.com/vaidehijoshi/basecs-series/blob/master/README.md) :star::hourglass:
 
+## Embedded Software Resources
+
+- [Embedded.fm blog posts: Embedded Software Engineering 101](https://www.embedded.fm/blog/ese101)
+
+- [edX: Embedded Systems Shape the World by UT Austin](https://www.edx.org/course/embedded-systems-shape-the-world-microcontroller-inputoutput)
+
+- [Embedded.fm: blog post on getting started withj embedded software](https://www.embedded.fm/episodes/211)
+
+- [Making Embedded Systems: Design Patterns for Great Software (Book by Elecia White)](https://www.amazon.com/Making-Embedded-Systems-Patterns-Software-ebook/dp/B005ZTO0LG/ref=as_li_ss_tl?_encoding=UTF8&me=&linkCode=sl1&tag=httpembefm-20&linkId=5479c6a2101ce3e81a25601da7341064)
+
 ## Interview/ Resume/  Job Search Resources
 
 ---
