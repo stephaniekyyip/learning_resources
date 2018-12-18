@@ -69,6 +69,14 @@ Here's a list of free web resources I've used to learn about web development, pr
 
 ## Interview/ Resume/  Job Search Resources
 
+- [Companies that hire remote junior developers](https://github.com/AdamLombard/we-hire-remote-junior-devs)
+
+- [Junior developer job board](https://www.jrdevjobs.com/)
+
+## Other Resources
+
+- [Chingu](https://chingu.io/): Collaborate with others on software projects for learning purposes
+
 ---
 
 ## My Repositories for Learning
