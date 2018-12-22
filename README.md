@@ -67,6 +67,8 @@ Here's a list of free web resources I've used to learn about web development, pr
 
 - [Making Embedded Systems: Design Patterns for Great Software (Book by Elecia White)](https://www.amazon.com/Making-Embedded-Systems-Patterns-Software-ebook/dp/B005ZTO0LG/ref=as_li_ss_tl?_encoding=UTF8&me=&linkCode=sl1&tag=httpembefm-20&linkId=5479c6a2101ce3e81a25601da7341064)
 
+- [Embedded Artistry](https://embeddedartistry.com/)
+
 ## Interview/ Resume/  Job Search Resources
 
 - [Companies that hire remote junior developers](https://github.com/AdamLombard/we-hire-remote-junior-devs)
