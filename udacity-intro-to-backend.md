@@ -2,17 +2,17 @@
 
 **Table of Contents**
 
-[Lesson 1: How the Web Works](#Lesson-1:-How-the-Web- Works)
+[Lesson 1: How the Web Works](#Lesson-1-How-the-Web- Works)
 
-[Lesson 3: Forms and Inputs](#lesson-3:-forms-and-inputs)
+[Lesson 3: Forms and Inputs](#lesson-3-forms-and-inputs)
 
-[Lesson 4: Templates](#lesson-4:-templates)
+[Lesson 4: Templates](#lesson-4-templates)
 
-[Lesson 6: Databases](#lesson-6:-databases)
+[Lesson 6: Databases](#lesson-6-databases)
 
-[Lesson 7: Blog](#lesson-7:-blog)
+[Lesson 7: Blog](#lesson-7-blog)
 
-[Lesson 8: User Accounts and Security](#lesson-8:-user-accounts-and-security)
+[Lesson 8: User Accounts and Security](#lesson-8-user-accounts-and-security)
 
 ---
 
@@ -28,15 +28,15 @@
 
 - Servers respond with files that the browser displays
 
-- HTTP: The main protocol of the web
+- **HTTP**: The main protocol of the web
 
-- Server: Computers that host the files that make up the web
+- **Server**: Computers that host the files that make up the web
 
-- Internet: The world’s largest computer network
+- **Internet**: The world’s largest computer network
 
-- Browser: A program that runs on your computer to display files found on the web.
+- **Browser**: A program that runs on your computer to display files found on the web.
 
-- HTML: HyperText Markup Language
+- **HTML**: HyperText Markup Language
 
   - Made out of text content, markup (what it looks like), references to other docs, links to other pages
 
@@ -139,8 +139,8 @@
 
   - Default: text
   - Password type: Should be used for entering passwords on forms, but the password is not sent securely to your server since the parameter is shown in the URL
-  - Checkbox: The value for the parameter is “on” when checked. The parameter doesn’t appear in the URL if it is left unchecked.
-  - Radio: Behaves the same way as checkboxes, except you cannot uncheck them.
+  - **Checkbox**: The value for the parameter is “on” when checked. The parameter doesn’t appear in the URL if it is left unchecked.
+  - **Radio**: Behaves the same way as checkboxes, except you cannot uncheck them.
     - Give all the radio buttons in a group the same “name”, so that only one option can be selected at a time. Then, give each option an appropriate “value” parameter, so that the URL will reflect the selected radio button option accurately.
 
 - Label element
@@ -172,17 +172,17 @@
 
   - User could input junk into the server, so must validate the query parameters    
   - String substitution (Python)
-  - E.g. `“My name is %s” % Stephanie`
-  - E.g. `**“Here are two things: %(hobby)s and %(color)s” %{“hobby”: “reading”, “color”: “blue”}**`
+    - E.g. `“My name is %s” % Stephanie`
+    - E.g. `**“Here are two things: %(hobby)s and %(color)s” %{“hobby”: “reading”, “color”: “blue”}**`
 
 - Escaping
 
   - Prevents HTML from being rendered as HTML tags. 
   - Can import cgi module in python to use the “cgi.escape” function to escape string
-  - “  => `"`
-  - \> => `>`
-  - < => `<`
-  -  & => `&`
+    - “  => `"`
+    - \> => `>`
+    - < => `<`
+    - & => `&amp;`
 
 - Redirect after form submission, so that reloading the page doesn’t resubmit the form and so that you can separate forms and submission successful pages.
 
@@ -193,7 +193,7 @@
 - Use a string to enter html (with triple quotes)
   - E.g. `html = """ """`
 - Template Library: Library to build complicated strings (i.e. html)
-  - E.g. jinja in Python
+  - E.g. `jinja` in Python
     - Escape all user input before displaying it on the page or processing to prevent HTML injection
   - Make sure to enable auto-escaping for all variables in the templating language
 - Use templates to:
@@ -205,7 +205,7 @@
 
 ### Lesson 6: Databases
 
-- Database: A program that stores and retrieves large amounts of data.
+- **Database**: A program that stores and retrieves large amounts of data.
 
 - Types of databases
 
@@ -245,12 +245,12 @@
 
 - ACID
 
-  - Atomicity: All parts of a transaction succeed or fail together
+  - **Atomicity**: All parts of a transaction succeed or fail together
     - A transaction groups together multiple commands
-  - Consistency: The DB will always be consistent
+  - **Consistency**: The DB will always be consistent
     - DB will move from one valid transaction to the next (i.e. items that get updated under the same conditions must all get updated)
-  - Isolation: No transaction can interfere with another transaction
-  - Durability: Once the transaction is committed, it won’t be lost
+  - **Isolation**: No transaction can interfere with another transaction
+  - **Durability**: Once the transaction is committed, it won’t be lost
     - Even if DB crashes, the data won’t be lost
 
 - Trade-offs exists with every DB system
@@ -303,11 +303,11 @@
 
 - Hash algorithms
 
-  - crc32: checksums used to verify that the entire file has been received properly, collisions are easy to find but doesn’t matter b/c not used for security, fast
-  - md5:  fast, seemed secure but not anymore, collisions are easy to find
-  - sha1: secure-ish
-  - sha256: pretty good, but slow
-  - Collision: Two inputs hash to the same value. Collisions should be hard to find.
+  - **crc32**: checksums used to verify that the entire file has been received properly, collisions are easy to find but doesn’t matter b/c not used for security, fast
+  - **md5**:  fast, seemed secure but not anymore, collisions are easy to find
+  - **sha1**: secure-ish
+  - **sha256**: pretty good, but slow
+  - **Collision**: Two inputs hash to the same value. Collisions should be hard to find.
 
 - Hashing in Python
 
@@ -321,7 +321,7 @@
   - `set-cookie: visits = 5, [hashed value]`
   - To check if a cookie has been tampered with, make sure that the rehashed value is equal to the hash that was sent. Otherwise, reset or discard cookie value.
   - However, if the hashing algorithm is known, a hacker could use that algorithm to hash the new value of the cookie. To combat this, instead of just hashing the value, you would hash the value + secret. 
-  - HMAC: Hash-based Message Authetication Code
+  - **HMAC**: Hash-based Message Authetication Code
     - Similar to `hashlib` for hashing, but also incorporates a secret to create the hash value. 
 
       ```python
@@ -335,8 +335,18 @@
 
   - However, even hashed passwords are not completely safe.
 
-  - Rainbow table: Comprehensive hash table mappings of plain text to hashed values. Makes it easy to look up the mappings for a given hash algorithm.
+  - **Rainbow table**: Comprehensive hash table mappings of plain text to hashed values. Makes it easy to look up the mappings for a given hash algorithm.
 
-  - Salt: Similiar to secrets, but consists of random characters that are added to the plan text values before being hashed.
+  - **Salt**: Similiar to secrets, but consists of random characters that are added to the plan text values before being hashed.
 
   - Be careful about 3rd party libraries for password hashing.
+
+  - Most hashing functions are designed to be fast, which is fine in the case of verifying cookies. But in the case of verifying passwords, it might be better to have a slower hashing function to account for computers getting faster. 
+
+    - **bcrypt** (instead of sha256) uses an additional parameter that determines how slow the hashing will take
+
+- HTTPs
+
+  - When submitting passwords in forms, the values can be easily seen in the URL. The passwords are also being sent in plaintext over the Internet.  
+
+  - The solution is to use HTTPs, which is HTTP encrypted over SSL. 
